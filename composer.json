@@ -20,5 +20,6 @@
         "psr-0": {
             "MyApp": "src"
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
