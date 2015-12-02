@@ -4,17 +4,17 @@ namespace MyApp;
 
 class Message 
 {
-	public function greet($time = date('Y-m-d H:i:s'))
+	public function greet($time = null)
 	{
 		$time = date('H',strtotime($time));
 
 		if($time > 12)
 		{
-			return "Good Afternoon";
+			return "Afternoon";
 		} else if($time >= 18) {
-			return "Good Evening";
+			return "Evening";
 		} else {
-			return "Good Morning";
+			return "Morning";
 		}
 
 	}
