@@ -1,0 +1,19 @@
+{
+    "name": "mypackage/sample",
+    "description": "sample package",
+    "require-dev": {
+        "phpunit/phpunit": "^5.0"
+    },
+    "authors": [
+        {
+            "name": "jett",
+            "email": "jettmedina@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "MyApp": "src"
+        }
+    }
+}
