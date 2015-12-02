@@ -5,7 +5,7 @@
         "phpunit/phpunit": "^5.0"
     },
     "keywords": [
-        "greeting",
+        "greeting"
     ],
     "authors": [
         {
@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-         "php": ">=5.3.3",
+         "php": ">=5.3.3"
         },
     "autoload": {
         "psr-0": {
